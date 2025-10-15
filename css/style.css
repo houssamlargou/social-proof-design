@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--White);
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.testimonial-intro {
+  width: 32rem;
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.primary-header {
+  font-size: 3.6rem;
+  color: var(--Very-Dark-Magenta);
+}
+
+.info-para {
+  color: var(--Dark-Grayish-Magenta);
+  font-size: 1.6rem;
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+  width: 35rem;
+}
+
+.rate-card {
+  padding: 1.2rem 2.2rem;
+  background-color: var(--Light-Grayish-Magenta);
+  width: 29rem;
+  display: flex;
+  gap: 2rem;
+  border-radius: 0.5rem;
+}
+
+.rate-card:nth-child(2) {
+  align-self: center;
+}
+.rate-card:last-child {
+  align-self: end;
+}
+
+.starts {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.starts * {
+  width: 1.1rem;
+}
+
+.rate-card-para {
+  font-weight: bold;
+  color: var(--Very-Dark-Magenta);
+}
